@@ -42,7 +42,7 @@ function ContactPage() {
           </div>
           <img src="/divider.png" alt="divider" />
 
-          <form>
+          <form onSubmit={handleSubmit}>
             <label htmlFor="name">Name</label>
             <input
               type="text"
@@ -77,7 +77,8 @@ function ContactPage() {
                 setSubject(e.target.value);
               }}
             />
-            <button onClick={handleSubmit}>Send</button>
+            <button 
+            type="submit">Send</button>
           </form>
         </div>
       )}
@@ -107,7 +108,7 @@ function ContactPage() {
           </div>
           <img src="/divider.png" alt="divider" />
 
-          <form>
+          <form onSubmit={handleSubmit}>
             <label htmlFor="name">Ime</label>
             <input
               type="text"
@@ -143,7 +144,7 @@ function ContactPage() {
               }}
             />
 
-            <button onClick={handleSubmit}>Poslati</button>
+            <button type="submit">Poslati</button>
           </form>
         </div>
       )}
@@ -173,7 +174,7 @@ function ContactPage() {
           </div>
           <img src="/divider.png" alt="divider" />
 
-          <form>
+          <form onSubmit={handleSubmit}>
             <label htmlFor="name">Name</label>
             <input
               type="text"
@@ -209,7 +210,7 @@ function ContactPage() {
               }}
             />
 
-            <button onClick={handleSubmit}>Absenden</button>
+            <button type="submit">Absenden</button>
           </form>
         </div>
       )}
