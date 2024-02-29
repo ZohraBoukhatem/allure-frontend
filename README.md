@@ -12,8 +12,7 @@ The repo consists of a homepage, about us page and contact page. Through the con
 # To run the code locally:
 - clone this repo
 - clone the backend repo as well
-In the terminal run:
-- npm i, npm i react, npm i axios and all other missing dependencies (can be found in the package.json file)
+- in the terminal run: npm i, npm i react, npm i axios and all other missing dependencies (can be found in the package.json file)
 - lastly, npm run dev 
 
 
