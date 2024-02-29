@@ -1,4 +1,4 @@
-import "./AboutPage.css";
+import "../styles/AboutPage.css";
 import { useContext } from "react";
 import { LanguageContext } from "../context/language.context";
 
@@ -10,7 +10,8 @@ function AboutPage() {
       {lang === "eng" && (
         <>
           <div className="about">
-            <img className="divider" src="/divider.png" alt="divider" />
+<section>
+<h2>About us</h2>
 
             <p>
               Welcome to <i>Allure</i>, where dreams become reality and love
@@ -45,53 +46,98 @@ function AboutPage() {
               consultation and begin the enchanting adventure of planning your
               perfect day with <i>Allure</i>.
             </p>
-            <img className="divider" src="/divider.png" alt="divider" />
+</section>
+      </div>    
 
-            <h3>Why Choose Us:</h3>
-            <ul>
+<div>
+            <div className="page-header">
+              <h2 id="timeline">Why choose us?</h2>
+            </div>
+            <ul className="timeline">
               <li>
-                <b>{"-->"} Experience:</b>
-                <div>
+                <div className="timeline-badge">
+                  <img src="A.png" alt="logo" />
+                </div>
+                <div className="timeline-panel">
+                  <div className="timeline-heading">
+                  <h4 className="timeline-title">Experience</h4>{" "}
+                  </div>
+                  <hr />
+                  <div className="timeline-body">
+                    <p>
                   With years of experience in the industry, we bring a wealth of
                   knowledge and expertise to each wedding we plan.
-                </div>
+                  </p>
+                  </div>
+                  </div>
+
               </li>
 
-              <li>
-                <b>{"-->"} Attention to Detail:</b>
-                <div>
+             
+              <li className="timeline-inverted">
+                <div className="timeline-badge">
+                  <img src="A.png" alt="logo" />
+                </div>
+                <div className="timeline-panel">
+                  <div className="timeline-heading">
+                  <h4 className="timeline-title">Attention to Detail</h4>
+                  </div>
+                  <div className="timeline-body">
+                    <p>
                   We believe that it's the little details that make a wedding
                   truly memorable. Our team is meticulous in ensuring that every
                   element is perfect.
+                  </p>
+                  </div>
                 </div>
               </li>
 
               <li>
-                <b>{"-->"} Personalized Service:</b>
-                <div>
+                <div className="timeline-badge">
+                  <img src="A.png" alt="logo" />
+                </div>
+                <div className="timeline-panel">
+                  <div className="timeline-heading">
+                  <h4 className="timeline-title">Personalized Service</h4>
+                  </div>
+                  <div className="timeline-body">
+                    <p>
                   Your love story is unique, and your wedding should be too. We
                   take the time to understand your vision and tailor our
                   services to meet your individual needs.
+                  </p>
+                  </div>
                 </div>
               </li>
 
-              <li>
-                <b>{"-->"} Stress-Free Planning:</b>
-                <div>
+              <li className="timeline-inverted">
+                <div className="timeline-badge">
+                  <img src="A.png" alt="logo" />
+                </div>
+                <div className="timeline-panel">
+                  <div className="timeline-heading">
+                  <h4 className="timeline-title">Stress-Free Planning</h4>
+                  </div>
+                  <div className="timeline-body">
+                    <p>
                   Planning a wedding can be overwhelming, but with <i>Allure</i>
                   , you can relax knowing that every detail is in capable hands.
+                  </p>
+                  </div>
                 </div>
               </li>
             </ul>
           </div>
+
+<hr/>
           <div className="team">
-            <h1>Our Team</h1>
+            <h2>Our Team</h2>
             <div className="row">
               <div className="column">
                 <div className="card">
                   <img src="/girl.jpg" alt="profile" />
                   <div className="container">
-                    <h2>Carmen Aji</h2>
+                    <h4>Carmen Aji</h4>
                     <p className="title">Co-Founder</p>
                     <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                     <p>jane@example.com</p>
@@ -113,7 +159,7 @@ function AboutPage() {
                 <div className="card">
                   <img src="/guy.jpg" alt="profile" />
                   <div className="container">
-                    <h2>Luka Čanković</h2>
+                    <h4>Luka Čanković</h4>
                     <p className="title">Co-Founder</p>
                     <p>Some text that describes me lorem ipsum ipsum lorem.</p>
                     <p>mike@example.com</p>

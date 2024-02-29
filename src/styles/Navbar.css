@@ -107,6 +107,12 @@
   }
 }
 
+@media (min-width: 700px) {
+
+.insta {
+  margin-top: 3% !important
+}
+}
 /*NAVBAR*/
 .navbar a {
   color: #ffffffa4;
@@ -115,9 +121,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1.5% 0%;
+  padding: 1% 0%;
   width: 100%;
-  background-color: #533348;
+  background-color: #532572
 }
 
 .home {

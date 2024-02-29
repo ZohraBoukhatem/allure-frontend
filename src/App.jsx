@@ -3,6 +3,7 @@ import HomePage from "./Pages/HomePage";
 import ContactPage from "./Pages/ContactPage";
 import AboutPage from "./Pages/AboutPage";
 import Navbar from "./components/Navbar";
+import "./styles/App.css"
 
 function App() {
 

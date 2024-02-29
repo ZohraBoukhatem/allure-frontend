@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "../styles/Navbar.css";
 import { useContext } from "react";
 import { LanguageContext } from "../context/language.context";
 
@@ -92,7 +92,7 @@ function Navbar() {
               </svg>
               </a>
             </li>
-            <li>
+            <li className="insta">
               <a href="https://www.instagram.com">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-import "./ContactPage.css";
+import "../styles/ContactPage.css";
 import axios from "axios";
 import { useContext, useState } from "react";
 import { LanguageContext } from "../context/language.context";
@@ -35,13 +35,13 @@ function ContactPage() {
       {lang === "eng" && !send && (
         <div className="contact">
           <h2>Contact us</h2>
+<hr/>
           <div className="info">
             <p>Email: example@gmail.com</p>
             <p>Tel: +4912311944875</p>
             <p>Address: Franje Čandeka 52f</p>
           </div>
-          <img src="/divider.png" alt="divider" />
-
+<hr/>
           <form onSubmit={handleSubmit}>
             <label htmlFor="name">Name</label>
             <input

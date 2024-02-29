@@ -1,0 +1,32 @@
+body {
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    line-height: 2em;
+    font-size: large;
+    font-weight: 200;background: rgb(255,255,255);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 93%, rgba(83,37,114,0.7120098039215687) 100%);
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: 100;  
+}
+
+h2 {
+    font-size: 2em;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+h4 {
+      
+    font-size: 1.5em;
+    font-family:'Times New Roman', Times, serif;
+}
+
+hr {
+    width: 80%;
+    background-color: rgba(175, 175, 175, 0.597);
+}

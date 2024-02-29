@@ -1,5 +1,5 @@
 
-import "./HomePage.css";
+import "../styles/HomePage.css";
 import { useContext } from "react";
 import { LanguageContext } from "../context/language.context";
 
@@ -16,8 +16,6 @@ function HomePage() {
               Congratulations on your engagement! Now, let's turn your dream
               wedding into a reality with <i>Allure</i>, your dedicated partner
               in creating magical and stress-free celebrations.
-              <br />
-              <img src="divider.png" alt="divider" style={{ width: "50%" }} />
             </p>
           </div>
 
@@ -93,6 +91,7 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Weddings</h4>{" "}
                   </div>
+                  <hr />
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -119,6 +118,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Team building</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -143,6 +144,10 @@ function HomePage() {
                       mauris lectus, non scelerisque augue. Aenean justo massa.
                     </p>
                   </div>
+                  <hr />
+                  <button>
+                    <a href="">See more</a>
+                  </button>
                 </div>
               </li>
               <li>
@@ -153,6 +158,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Graduations</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -165,6 +172,10 @@ function HomePage() {
                       receita de bolis, mais bolis eu num gostis.
                     </p>
                   </div>
+                  <hr />
+                  <button>
+                    <a href="">See more</a>
+                  </button>
                 </div>
               </li>
               <li className="timeline-inverted">
@@ -175,6 +186,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Workshops</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -187,6 +200,10 @@ function HomePage() {
                       receita de bolis, mais bolis eu num gostis.
                     </p>
                   </div>
+                  <hr />
+                  <button>
+                    <a href="">See more</a>
+                  </button>
                 </div>
               </li>
               <li>
@@ -197,6 +214,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Other events</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -209,6 +228,10 @@ function HomePage() {
                       receita de bolis, mais bolis eu num gostis.
                     </p>
                   </div>
+                  <hr />
+                  <button>
+                    <a href="">See more</a>
+                  </button>
                 </div>
               </li>
             </ul>
@@ -223,7 +246,6 @@ function HomePage() {
               Čestitamo Vam na zarukama! Sada dopustite nama, <i>Allure</i>{" "}
               timu, da Vam organizira savršeno vjenčanje.
               <br />
-              <img src="divider.png" alt="divider" style={{ width: "50%" }} />
             </p>
           </div>
 
@@ -298,6 +320,7 @@ function HomePage() {
                 <div className="timeline-panel">
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Vjenčanja</h4>{" "}
+                  <hr />
                   </div>
                   <div className="timeline-body">
                     <p>
@@ -325,6 +348,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Team building</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -349,6 +374,10 @@ function HomePage() {
                       mauris lectus, non scelerisque augue. Aenean justo massa.
                     </p>
                   </div>
+                  <hr />
+                  <button>
+                    <a href="">Više</a>
+                  </button>
                 </div>
               </li>
               <li>
@@ -359,6 +388,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Maturalne</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -371,6 +402,10 @@ function HomePage() {
                       receita de bolis, mais bolis eu num gostis.
                     </p>
                   </div>
+                  <hr />
+                  <button>
+                    <a href="">Više</a>
+                  </button>
                 </div>
               </li>
               <li className="timeline-inverted">
@@ -381,6 +416,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Radionice</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -393,6 +430,10 @@ function HomePage() {
                       receita de bolis, mais bolis eu num gostis.
                     </p>
                   </div>
+                  <hr />
+                  <button>
+                    <a href="">Više</a>
+                  </button>
                 </div>
               </li>
               <li>
@@ -403,6 +444,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Ostalo</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -414,7 +457,12 @@ function HomePage() {
                       nadis i pareci latim. Interessantiss quisso pudia ce
                       receita de bolis, mais bolis eu num gostis.
                     </p>
+                  
                   </div>
+                  <hr />
+                  <button>
+                    <a href="">Više</a>
+                  </button>
                 </div>
               </li>
             </ul>
@@ -429,7 +477,6 @@ function HomePage() {
               Glückwunsch zur Hochzeit! Lassen Sie uns, dem <i>Allure</i> team,
               Ihre perfekte Hochzeit organisieren!
               <br />
-              <img src="divider.png" alt="divider" style={{ width: "50%" }} />
             </p>
           </div>
 
@@ -505,6 +552,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Hochzeiten</h4>{" "}
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -531,6 +580,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Team building</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -555,6 +606,10 @@ function HomePage() {
                       mauris lectus, non scelerisque augue. Aenean justo massa.
                     </p>
                   </div>
+                  <hr />
+                  <button>
+                    <a href="">Mehr</a>
+                  </button>
                 </div>
               </li>
               <li>
@@ -565,6 +620,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Abschlussfeiern</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -577,6 +634,10 @@ function HomePage() {
                       receita de bolis, mais bolis eu num gostis.
                     </p>
                   </div>
+                  <hr />
+                  <button>
+                    <a href="">Mehr</a>
+                  </button>
                 </div>
               </li>
               <li className="timeline-inverted">
@@ -587,6 +648,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Workshops</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -598,7 +661,12 @@ function HomePage() {
                       nadis i pareci latim. Interessantiss quisso pudia ce
                       receita de bolis, mais bolis eu num gostis.
                     </p>
+                  
                   </div>
+                    <hr />
+                  <button>
+                    <a href="">Mehr</a>
+                  </button>
                 </div>
               </li>
               <li>
@@ -609,6 +677,8 @@ function HomePage() {
                   <div className="timeline-heading">
                     <h4 className="timeline-title">Weiteres</h4>
                   </div>
+                  <hr />
+
                   <div className="timeline-body">
                     <p>
                       Mussum ipsum cacilds, vidis litro abertis. Consetis
@@ -621,6 +691,10 @@ function HomePage() {
                       receita de bolis, mais bolis eu num gostis.
                     </p>
                   </div>
+                  <hr />
+                  <button>
+                    <a href="">Mehr</a>
+                  </button>
                 </div>
               </li>
             </ul>

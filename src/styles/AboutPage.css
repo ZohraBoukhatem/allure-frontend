@@ -1,0 +1,81 @@
+.about {
+  margin: 2% 20%;
+}
+
+.about section {
+  margin: 10% 0;
+}
+
+.team {
+  padding-top: 2%;
+}
+.team img {
+  width: 70%;
+  border-radius: 5px;
+}
+
+.team h2 {
+  margin: 2%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: rgba(255, 255, 255, 0.779);
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 0 16px;
+  width: 100%;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+}

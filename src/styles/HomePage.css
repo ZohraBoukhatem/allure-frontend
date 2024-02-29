@@ -68,9 +68,8 @@ li {
 .carousel {
   position: relative;
   padding-top: 40%;
-  filter: drop-shadow(0 0 10px #0003);
-  perspective: 100px;
-  background-color: #61443424;
+  filter: drop-shadow(0 0 20px #0003);
+  perspective: 100px;  
   border-radius: 10px;
   margin-top: 3%;
 }
@@ -276,10 +275,10 @@ a.carousel__next {
   float: left;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
-  padding: 20px;
+  padding: 40px;
   position: relative;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.175);
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;
@@ -348,7 +347,7 @@ a.carousel__next {
 }
 @media (max-width: 767px) {
   ul.timeline:before {
-    left: 25px;
+    left: 15px;
   }
 
   ul.timeline > li > .timeline-panel {
@@ -358,7 +357,7 @@ a.carousel__next {
   }
 
   ul.timeline > li > .timeline-badge {
-    left: 0;
+    left: -15px;
     margin-left: 0;
     top: 16px;
   }
@@ -380,13 +379,20 @@ a.carousel__next {
     left: -14px;
     right: auto;
   }
+  .timeline > li > .timeline-panel {
+    padding: 20px;
+    line-height: 1.5em;
+  }
 }
 .timeline-badge img {
   width: 80%;
   height: auto;
 }
+.timeline button {
+ padding: 0;
+}
 .timeline button a {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .timeline button:hover {
   border-color: rgb(255, 255, 255);
